@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.level1.1 {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.inner1{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    
+}
+.inner1 h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.sub2 {
+    width: 160px;
+    height: 5px;
+    background-color: #34495e;
+    margin: 26px auto;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col1 {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.level3 {
+    background-color: #fff;
+    padding: 30px;
+
+}
+
+.level3 img {
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 30%;
+   /* margin-left: 4.2rem; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+    
+}
+
+
+.name1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: center;
+
+}
+.level3 p{
+    text-align: center;
+
+}
+
+
+.star{
+    margin-top: 20px;
+    display: flex;
+    
+   
+}
+
+.star li {
+    list-style: none;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.star li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /* background: white; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  
+    text-decoration: none;
+    /* border-radius: 4px; */
+}
+.star li a .fab{
+    /* color: #34495e; */
+    color:#34495e;
+    font-size: 30px;
+    align-items: center;
+}
+.star li a:hover i{
+    /* background: white; */
+    color: black;
+    /* background:#4f7194 ; */
+    
+}
+.level3:hover i{
+    background: white;
+    border-radius: 20%;
+    transition: 0.3s linear;
+    }
+.level3:hover{
+background: #34495e;
+color: white;
+transition: 0.3s linear;
+}
+
+@media screen and (max-width:960px) {
+    .col1{
+        flex: 100%;
+        max-width: 80%;
+    }
+    .level3 img {
+       
+       /* margin-left: 260px; */
+        
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
